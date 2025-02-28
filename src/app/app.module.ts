@@ -11,6 +11,7 @@ import { ResidenceDetailsComponent } from './residence-details/residence-details
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ResidenceFormComponent } from './residence-form/residence-form.component';
+import { AddAppartementFormComponent } from './add-appartement-form/add-appartement-form.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ResidenceFormComponent } from './residence-form/residence-form.componen
     ResidenceDetailsComponent,
     HomeComponent,
     NotFoundComponent,
-    ResidenceFormComponent
+    ResidenceFormComponent,
+    AddAppartementFormComponent
   ],
   imports: [
     BrowserModule,

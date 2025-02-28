@@ -5,12 +5,14 @@ import { ResidenceDetailsComponent } from './residence-details/residence-details
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ResidenceFormComponent } from './residence-form/residence-form.component';
+import { AddAppartementFormComponent } from './add-appartement-form/add-appartement-form.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:"full"},
   {path:"home", component:HomeComponent},
   {path:"residences", component:ResidencesComponent},
   {path:"addResidence", component:ResidenceFormComponent},
+  {path:"addAppartement", component: AddAppartementFormComponent},
   {path:"home/:id", component:ResidenceDetailsComponent},
   {path:"**", component:NotFoundComponent}
   
